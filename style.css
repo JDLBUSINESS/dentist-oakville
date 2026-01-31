@@ -1,0 +1,40 @@
+body {
+  font-family: Inter, system-ui, sans-serif;
+  margin: 0;
+  background: #f9fafb;
+  color: #111;
+}
+
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+}
+
+.btn {
+  background: white;
+  color: #1e40af;
+  padding: 14px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.contact {
+  padding: 40px;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+}
